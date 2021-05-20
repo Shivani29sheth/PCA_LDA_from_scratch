@@ -14,19 +14,27 @@ Use all training images of three digits (‘4’, ‘7’ and ‘8’) to estima
 
 **Principal Component Analysis:**
 
+We perform Principal Component Analysis from scratch by computing the eigen values and variance of the image features. Once these are calculated, we plot them on a graph to analysize the top eigen values and the number of components required to keep maximum variance (about 98%) of the total variance in data.
+
 <img src="PCA_LDA_Results/PCA_eignvalues.png" width="35%" height="35%">
 
 <img src="PCA_LDA_Results/PCA_variance.png" width="35%" height="35%">
 
 As per the 'Cumulative_explained_variance' graph shown above, we see that we need to use about 300 dimensions in PCA in order to keep 98% of the total variance in data.
 
+Now, we also analyze the distortion in the reduced dimensional data by plotting the graph below:
+
 <img src="PCA_LDA_Results/PCA_distortion.png" width="35%" height="35%">
+
+Finally, after performing PCA we project all images into 2-D space and plot each digit in a different color for data visualization.
 
 <img src="PCA_LDA_Results/PCA_plot.png" width="75%" height="75%">
 
 **Linear Discriminant Analysis:**
 
 In LDA, we can only use a maximum of 3 dimensions since we have only 3 class labels. Hence, using LDA, we would be able to separate the three classes in a maximum of 3 dimensions.
+
+After performing LDA, we project all images into 2-D space and plot each digit in a different color for data visualization.
 
 <img src="PCA_LDA_Results/LDA_plot.png" width="50%" height="50%">
 
