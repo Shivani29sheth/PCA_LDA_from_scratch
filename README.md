@@ -14,4 +14,14 @@ Use all training images of three digits (‘4’, ‘7’ and ‘8’) to estima
 
 **Principal Component Analysis:**
 
+<img src="PCA_LDA_Results/PCA_eignvalues.png" width="50%" height="50%">
+
+<img src="PCA_LDA_Results/PCA_variance.png" width="50%" height="50%">
+
+<img src="PCA_LDA_Results/PCA_distortion.png" width="50%" height="50%">
+
+<img src="PCA_LDA_Results/PCA_plot.png" width="50%" height="50%">
+
 **Linear Discriminant Analysis:**
+
+<img src="PCA_LDA_Results/LDA_plot.png" width="50%" height="50%">
