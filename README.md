@@ -18,10 +18,16 @@ Use all training images of three digits (‘4’, ‘7’ and ‘8’) to estima
 
 <img src="PCA_LDA_Results/PCA_variance.png" width="35%" height="35%">
 
+As per the 'Cumulative_explained_variance' graph shown above, we see that we need to use about 300 dimensions in PCA in order to keep 98% of the total variance in data.
+
 <img src="PCA_LDA_Results/PCA_distortion.png" width="35%" height="35%">
 
 <img src="PCA_LDA_Results/PCA_plot.png" width="75%" height="75%">
 
 **Linear Discriminant Analysis:**
 
+In LDA, we can only use a maximum of 3 dimensions since we have only 3 class labels. Hence, using LDA, we would be able to separate the three classes in a maximum of 3 dimensions.
+
 <img src="PCA_LDA_Results/LDA_plot.png" width="50%" height="50%">
+
+Comparing the two data visualization methods, we see that the PCA method has a more spread out and overlapping visualization for the data point. This is because the PCA algorithm does not classify the data well based on their class labels. On the other hand, LDA is able to classify the data in a better way. We see that in LDA, we have more compact grouping of classes in the graph.
